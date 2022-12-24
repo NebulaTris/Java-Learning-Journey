@@ -2,7 +2,7 @@
 Description: Program to display the odd number from 1 to 100 using "for" loop.*/
 
 //Program:
-public class OddNUm
+public class OddNum
 {
     public static void main(String args[])
     {
