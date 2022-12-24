@@ -2,16 +2,19 @@
 Description: Program to check whether the input given by user is positive or negative.*/
 
 //Program:
+import java.util.Scanner;
 public class PosOrNeg
 {
     public static void main(String[] args)
     {
-        int a=192;
-        if(a>0)
+        System.out.print("Enter number:");
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        if((a)>0)
         {
             System.out.println("The number is positive.");
         }
-        else if(a<0)
+        else if((a)<0)
         {
             System.out.println("The number is negative.");
         }
