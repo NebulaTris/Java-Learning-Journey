@@ -29,7 +29,7 @@ class Z implements Runnable
   {
     for(int k=1;k<=10;k++)
     {
-      System.out.println("\tThread Z : " +i);
+      System.out.println("\tThread Z : " +k);
     }
     System.out.println("End of Thread Z");
   }
@@ -42,7 +42,7 @@ class RunnableTest
     Thread threadX = new Thread(runnable);
     Y runnable1 = new Y();
     Thread threadY = new Thread(runnable1);
-    Z runnable2 = new X();
+    Z runnable2 = new Z();
     Thread threadZ = new Thread(runnable2);
     threadX.start();
     threadY.start();
