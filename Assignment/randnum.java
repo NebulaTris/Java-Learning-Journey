@@ -3,7 +3,7 @@
 //Code:
 import java.util.Random;
 
-public class RandomNumberArray {
+public class randnum {
     
     public static void main(String[] args) {
         
