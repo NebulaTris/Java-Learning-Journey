@@ -23,7 +23,7 @@
 # How to Use 
 <br> 1. Clone this repository to your local machine using 
 ```
-git clone https://github.com/<NebulaTris>/Java-Learning-Journey.git.
+git clone https://github.com/NebulaTris/Java-Learning-Journey.git.
 ```
 <br> 2. Navigate to the folder of your interest.
 <br> 3. Open the file using any Java Integrated Development Environment (IDE) such as IntelliJ IDEA , Eclipse or NetBeans.
